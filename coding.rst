@@ -1,0 +1,5 @@
+.. _coding:
+
+Writing code
+============
+
