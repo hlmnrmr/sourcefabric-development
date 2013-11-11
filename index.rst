@@ -24,6 +24,7 @@ Developer's Guide
 .. toctree::
     :maxdepth: 1
 
+    git
     testing
 
 Overview
