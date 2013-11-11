@@ -27,15 +27,15 @@ find all official Git repositories hosted in GitHub at
 The branching model we follow in Sourcefabric aims simplicity. It considers
 three different types of branches:
 
-* main development branch (a.k.a. master): the base for almost all development.
+* main development branch (a.k.a. `master`): the base for almost all development.
   Every time you will start working on something new, you should do it based on
-  master.
+  `master`.
 * release branches: officially supported versions of the product are kept in
   release branches, this is mainly for maintenance. If you want to contribute a
   fix to a bug that affects any of the supported released versions, you should
   do it against the corresponding release branch.
 * feature branches: when a new major feature or improvement is being done,
-  likely work happens in a feature branch to not affect master directly.
+  likely work happens in a feature branch to not affect `master` directly.
 
 Every release can be found in our repositories in the form of Git tags.
 
@@ -45,25 +45,25 @@ reading.
 Branches in detail
 ------------------
 
-The master branch
-`````````````````
+The `master` branch
+```````````````````
 
-* master is the main development branch. This is the code to base new features,
+`master` is the main development branch. This is the code to base new features,
 major improvements and re-factoring on. It holds the code that will constitute
 the next grand or major release.
 
-* master, being the main development branch, is the only one permanent branch in
-the repository, it will be always available and won't be never removed. All
-other branches have a lifetime, they are created and deleted when not needed
-anymore.
+* `master`, being the main development branch, is the only one permanent branch
+  in the repository, it will be always available and won't be never removed.
+  All other branches have a lifetime, they are created and deleted when not
+  needed anymore.
 
-* master is an active development branch, therefore it is not considered to be
-in a stable state.
+* `master` is an active development branch, therefore it is not considered to
+  be in a stable state.
 
-* However, supported in our development workflow, master can be considered to
-be always in a good functional state.
+* However, supported in our development workflow, `master` can be considered to
+  be always in a good functional state.
 
-* master triggers either a grand release or a major release, only.
+* `master` triggers either a grand release or a major release, only.
 
 Release branches
 ````````````````
@@ -80,7 +80,7 @@ products.
   repository.
 
 * Bug fixing usually happens here, and then --if apply- the fix is ported to
-  master. It can also be done the other way around, important is to make sure
+  `master`. It can also be done the other way around, important is to make sure
   that the fix will be available for all affected branches.
 
 * NO new features are ever added to a release branch.
@@ -89,7 +89,7 @@ products.
   only.
 
 * Whenever a release needs to happen, a new release branch is created branching
-  off master, and when doing so ALL new features added since the last release
+  off `master`, and when doing so ALL new features added since the last release
   will be part of the new release, this means you cannot cherry pick which
   features will make the new release.
 
@@ -103,14 +103,14 @@ Implementation of new big features, experimenting features, major improvements,
 re-factoring and re-writing, are made in separate feature branches.
 
 * Whenever an enhancement is required, it is done in a specific branch,
-  branching off master.
+  branching off `master`.
 
 * Lifetime of feature branches goes from the moment where the implementation
-  begins till the moment when the branch is merged back to master. Once that
+  begins till the moment when the branch is merged back to `master`. Once that
   happens the feature branch may be removed from the repository.
 
 * A feature branch never triggers a release. Features are always merged back to
-  master in order to be released.
+  `master` in order to be released.
 
 * Branch naming convention: <Jira Ticket Code>-<Short Descriptive Title>, where
   <Short Descriptive Title> must be in lowercases and must use the dash sign “-”
@@ -126,6 +126,5 @@ convention:
 v<Version Number> (e.g. v4.0.0, v2.1.1-RC2)
 
 You can see the list of released tags by checking:
-`https://github.com/sourcefabric/[product]/tags
-<https://github.com/sourcefabric/[product]/tags>`_
+https://github.com/sourcefabric/[product]/tags.
 
