@@ -13,8 +13,13 @@ Unit testing
 
 todo
 
-Working with Git and GitHub
----------------------------
+Submitting patches
+------------------
+
+todo
+
+Git and GitHub Pull Requests
+----------------------------
 
 todo
 

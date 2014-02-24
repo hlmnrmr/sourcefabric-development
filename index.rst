@@ -3,9 +3,9 @@
 
 Development @ Sourcefabric
 ==========================
-*Powered by Flask, MongoDB, Redis and good intentions Eve allows to
-effortlessly build and deploy highly customizable, fully featured RESTful Web
-Services*
+*At Sourcefabric we develop open-source software for media organizations.
+If you like our work and want to contribute, this is the space to learn
+how to do it.*
 
 Contributor's Guide
 ------------
