@@ -12,7 +12,7 @@ Contributor's Guide
 .. toctree::
     :maxdepth: 2
 
-    coding
+    coding/index
     documenting
     helping
     localizing

@@ -1,0 +1,4 @@
+.. _patches:
+
+Submitting patches
+==================
