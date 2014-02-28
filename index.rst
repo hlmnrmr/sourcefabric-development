@@ -3,19 +3,19 @@
 
 Development @ Sourcefabric
 ==========================
-*At Sourcefabric we develop open-source software for media organizations.
-If you like our work and want to contribute, this is the space to learn
-how to do it.*
-
-Contributor's Guide
-------------
+*At Sourcefabric we develop open-source software for media organizations.*
 
 There are several reasons why we develop Open Source software, one of our
 favourites is the chance to work with users. You can also be part of that
-community, helping us and helping others. Whether you are a journalist, a
-student or an experienced programmer, anyone has the power to contribute and
-support us to develop better software, you can start doing it in different
-ways, and here you will learn how.
+community, helping us and helping others.
+
+
+Contributor's Guide
+-------------------
+
+Whether you are a journalist, a student or an experienced programmer, anyone has
+the power to contribute and support us to develop better software, you can start
+doing it in different ways, and here you will learn how.
 
 .. toctree::
     :maxdepth: 2
