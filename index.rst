@@ -38,11 +38,9 @@ Overview
 Community
 ---------
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2 
 
-    support
-    updates
-    license
+    community
 
 .. note::
    This documentation is under development. Please refer to the links on the
