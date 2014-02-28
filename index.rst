@@ -9,6 +9,14 @@ how to do it.*
 
 Contributor's Guide
 ------------
+
+There are several reasons why we develop Open Source software, one of our
+favourites is the chance to work with users. You can also be part of that
+community, helping us and helping others. Whether you are a journalist, a
+student or an experienced programmer, anyone has the power to contribute and
+support us to develop better software, you can start doing it in different
+ways, and here you will learn how.
+
 .. toctree::
     :maxdepth: 2
 
